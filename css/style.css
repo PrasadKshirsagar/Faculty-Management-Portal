@@ -1,0 +1,209 @@
+@font-face {
+font-family: DeliciousRoman;
+src: url(/Delicious-Roman.otf);
+}
+
+.btn-default2 {
+  font-family: Raleway-SemiBold;
+  font-size: 20px;
+  color: rgba(108, 88, 179, 0.75);
+  letter-spacing: 1px;
+  line-height: 20px;
+  border: 2px solid rgba(108, 89, 179, 0.75);
+  border-radius: 100px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-default2:hover {
+  color: #FFF;
+  background: rgba(108, 88, 179, 0.75);
+  border: 2px solid rgba(108, 89, 179, 0.75);
+}
+
+#map {
+  height: 500px;
+  margin: 10px auto;
+  width: 800px;
+}
+
+iframe {
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+}
+@import  url(https://fonts.googleapis.com/css?family=Montserrat);
+.img-responsive{
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+.img-rounded{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.header{
+	background-color: white;
+	background: #283747;
+	margin-left: 0%; 
+	margin-right: 0%; 
+	font-size: 2em;
+	padding-top: 2%; 
+	padding-bottom: 2%;
+	border-radius: 10px;
+}
+.services-breadcrumb {
+    padding: 1em 0;
+    background: #f5f5f5;
+    text-align: center;
+}
+.services-breadcrumb ul li a {
+       color: #207fe2;
+    text-decoration: none;
+}
+.services-breadcrumb ul li {
+    display: inline-block;
+      color: #222;
+}
+.services-breadcrumb ul li i {
+    padding: 0 1.5em;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.buttonlogin {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button3 {
+    background-color: white;
+    opacity: 1  ; 
+    color: black;
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    opacity: 1;
+    color: white;
+}
+
+label{
+  color: blue;
+}
+/* carousal */
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.carousel-caption {
+    top: 38%;
+    bottom: 62%;
+    float: left;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 75vh;
+}
+
+.banner1 {
+    background: url(../Images/images/banner.jpg) no-repeat 0px -99px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height:300px;
+    padding-top: 5%;
+}
+.jarallax {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding-top: 5%;
+}
+
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: white;
+  background-color: rgba(255  , 255, 255, 255);
+  opacity: 0.9;
+  border: 0px solid #fff;
+  border-radius: 0px;
+}
+.carousel-indicators .active{
+    background-color: red;
+}
+/* carousel end*/
+/* pulse button*/
+.pulse-button {
+
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: none;
+  box-shadow: 0 0 0 0 rgba(7, 99, 171, 0.7);
+  border-radius: 50%;
+  background-color: #0773c8;
+  
+  background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+#nonpad{
+    opacity: 1;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+#nonpad: hover{
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.pulse-button:hover 
+{
+  -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(7, 99, 171, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(7, 99, 171, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(7, 99, 171, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(7, 99, 171, 0);}}
+
+/* pulse button end*/
+h1{
+  font-family: Autour One;
+}
+h4{
+  font-family: Autour One;
+}
+h3{
+  font-family: Autour One;
+}
+h2{
+  font-family: Autour One;
+}
+
